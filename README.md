@@ -1,18 +1,65 @@
-# Vue 3 + TypeScript + Vite
+# Locafilmes
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Neste projeto foi utilizado:
 
-## Recommended IDE Setup
+1. Vue + Vite
+2. TypeScript
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Ajustes e melhorias
 
-## Type Support For `.vue` Imports in TS
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- [x] Landing Page
+- [x] Catálogo de filmes
+- [x] Registro de Locações
+- [x] Registro de Usuários
+- [ ] Crud de usuários completo  
+- [ ] Crud de locação completo
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Instalando
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Para instalar o <Locafilmes>, siga estas etapas:
+
+1. Clone o repositório e após isso utilize o comando:
+
+```
+<npm install>
+```
+
+##  Usando
+
+Para usar <nLocafilmes> basta inicia-lo localmente:
+
+```
+<npm run dev>
+```
+## Manipulando a aplicação:
+
+## Landing Page
+1. Temos um carrossel destacando filmes
+2. Oferta de serviços de assinatura da locadora
+
+## Catalogo
+1. Busca principal de filmes no catálogo
+2. Listagem de filmes na busca
+3. Ao clicar em um filmes você é levado para a página de detalhes
+4. Na página de detalhes é possível visualizar mais informações e alugar o filme
+   - Note que o CRUD ainda esta incompleto, mas o filme esta sendo armazenado no localStorage por enquanto
+
+## Cadastro
+1. Formulário comum de cadastro
+2. O cadastro possui verificações de informações e utiliza o viaCep para validar endereços
+3. Após realizar o cadastro o usuário é levado ao seu perfil na Locafilmes
+
+## Login
+1. O telefone registrado no cadastro é utilizado como login
+   - o Login esta sendo armazenado no sessionStorage.
+
+## Perfil de Usuário
+> Em construção
+
+## Contato
+1. Página simples (vai ser mais elaborada)
+
+## Sobre
+1. Página simples (vai ser mais elaborada
