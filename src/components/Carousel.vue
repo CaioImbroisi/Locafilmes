@@ -25,7 +25,6 @@ export default {
       const onSwiper = (swiper: any) => {
       };
       const onSlideChange = () => {
-        console.log('slide change');
       };
       return {
         onSwiper,
@@ -40,6 +39,8 @@ export default {
     <span class="text-4xl flex-auto bebas-neue-regular md:text-6xl  "> TODOS OS FILMES DO BATMAN COM <span class="text-white text-stroke">20%</span> DE DESCONTO!</span>
   </div>
   <swiper class="bg-black"
+  @swiper="onSwiper"
+  @slideChange="onSlideChange"
   :slidesPerView="1"
   :breakpoints="{
     540: {
