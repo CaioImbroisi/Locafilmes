@@ -12,7 +12,10 @@ const toggleMenu = () => {
 <template>
     <div class="absolute right-6 top-10 sm:hidden">
     <button @click="toggleMenu" class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white">
-      <svg class="h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+      <svg class="h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="white">
+  <title>Menu</title>
+  <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+</svg>
     </button>
   </div>
 <nav class="flex items-center justify-between bg-slate-800 p-6">
@@ -35,8 +38,10 @@ const toggleMenu = () => {
         Contato
       </router-link>
     </div>
-      <router-link to="/login" class=" text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-slate-500 mt-4 lg:mt-0">Minha conta</router-link>
-  </div>
+    <div class="mt-5">
+      <router-link to="/login" class=" text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-slate-500">Minha conta</router-link>
+    </div>
+    </div>
 </div>
 </nav>
 <div class="floating-button">
