@@ -2,7 +2,7 @@
 import { searchMovies } from '../utils/movies.tsx'
 import Loading from '../components/Loading.vue'
 //Mock pra gerar automaticamente conteudo (API limita a 10)
-const defaultArray = ["spider", "batman", "titanic", "Fast", "Pokemon"]
+const defaultArray = ["spider", "batman", "titanic", "Fast", "Pokemon", "Spy", "War", "Hero"]
 
 interface Catalog {
   Title: string;
@@ -42,6 +42,7 @@ export default {
   },
   async mounted() {
     this.movies = await searchMovies(defaultArray[Math.floor(Math.random() * defaultArray.length)])
+    console.log(this.movies)
   },
 }
 </script>
