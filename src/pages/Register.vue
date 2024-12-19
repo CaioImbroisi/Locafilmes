@@ -106,17 +106,19 @@ export default {
                     <span
                         class="block lg:inline-block lg:mt-0 text-gray-200 font-semibold text-xl tracking-tight">Locafilmes</span>
                 </div>
+                <div class="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-sky-300 to-transparent" bis_skin_checked="1"></div>
                 <section class="bg-cream-lighter p-4 shadow round-50">
                     <div class="md:flex justify-center">
                         <h2 class="uppercase overline underline tracking-wide text-sm sm:text-lg mb-5">Crie
-                            uma conta</h2>
+                            sua conta</h2>
                     </div>
+
                     <form class="bg-slate-600 p-10 rounded-md" @submit.prevent="register()">
                         <span class=" text-xs flex justify-end -mt-5 mb-10">*Todos os campos são obrigatórios.</span>
+                        <span class=" text-xs flex justify-end -mt-5 mb-10">*Finalização da criação de conta e Painel de usuário em construção.</span>
                         <div class="md:flex mb-8">
                             <div class="md:w-1/3">
-                                <legend class="uppercase tracking-wide text-sm">Nome e Localização</legend>
-                            </div>
+                                <legend class="uppercase tracking-wide text-sm">Nome e Localização</legend>                            </div>
                             <div class="md:flex-1 mt-2 mb:mt-0 md:px-3">
                                 <div class="mb-4">
                                     <label class="block uppercase tracking-wide text-xs font-bold">Nome</label>

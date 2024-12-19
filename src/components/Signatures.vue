@@ -6,6 +6,7 @@ export default {
 }
 </script>
 <template>
+      <div class="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-sky-300 to-transparent" bis_skin_checked="1"></div>
   <div class="bg-gradient-to-tr from-slate-900 to-gray-700 flex gap-2 justify-center px-5 py-5 flex-col md:flex-row">
     <div class="flex items-center justify-center bg-red-500 rounded-xl">
       <div class=" p-5 md:p-10">

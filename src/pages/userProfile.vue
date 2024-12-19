@@ -28,6 +28,6 @@ export default {
 <template>
 
     <div class="text-white">
-        <p class="text-4xl"> Não deu tempo ;( </p>
+        <p class="text-4xl p-10"> Cadastro ainda não finalizado :( </p>
     </div>
 </template>

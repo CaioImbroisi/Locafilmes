@@ -58,6 +58,7 @@ export default {
       <input type="button" value="Buscar" @click="search" class="bg-red-500 p-2 rounded-tr-lg rounded-br-lg text-white font-semibold hover:bg-red-700 transition-colors"/>
     </div>
   </div>
+  <div class="relative -mb-px h-px w-full bg-gradient-to-r from-transparent via-sky-300 to-transparent" bis_skin_checked="1"></div>
   <div class="flex flex-row gap-10 flex-wrap justify-center gap-y-14 pt-5 pb-5">
   <div v-for="movie in movies" :key="movie.imdbID" class="hover:scale-105 duration-200">
     <div class='mx-auto bg-white rounded-3xl shadow-xl'>
