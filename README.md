@@ -32,6 +32,7 @@ Para usar <nLocafilmes> basta inicia-lo localmente:
 
 ```
 <npm run dev>
+*node version: 20
 ```
 ## Manipulando a aplicação (rotas):
 
