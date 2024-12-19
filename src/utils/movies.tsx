@@ -18,12 +18,12 @@ interface SearchResponse {
   Response: string;
 }
 const searchMovies = async (text:string) => {
-  const result = await axios.get<SearchResponse>(`http://www.omdbapi.com/?apikey=cf893766&s=${text}&type=movie`)
+  const result = await axios.get<SearchResponse>(`https://www.omdbapi.com/?apikey=cf893766&s=${text}&type=movie`)
   return result.data.Search
 }
 
 const findMovieById = async (text:string) => {
-  const result = await axios.get<Movie>(`http://www.omdbapi.com/?apikey=cf893766&i=${text}`)
+  const result = await axios.get<Movie>(`https://www.omdbapi.com/?apikey=cf893766&i=${text}`)
   return result
 }
 
