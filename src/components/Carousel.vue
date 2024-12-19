@@ -23,7 +23,7 @@ export default {
     },
     setup() {
       const onSwiper = (swiper: any) => {
-        console.log( 'onSwiper')
+        console.log(Swiper)
       };
       const onSlideChange = () => {
         console.log('slide change')
