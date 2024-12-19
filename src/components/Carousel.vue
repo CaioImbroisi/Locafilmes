@@ -1,6 +1,6 @@
 <script lang="ts">
 import { searchMovies } from '../utils/movies.tsx'
-import { Swiper, SwiperSlide, Autoplay } from 'swiper/vue';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 import Loading from '../components/Loading.vue'
 import 'swiper/css';
 import 'swiper/css/navigation';
